@@ -7,7 +7,7 @@ body {
 .container {
   width: 400px;
   margin: 0 auto;
-  border: 2px solid #c6c6c6;
+  /* border: 2px solid #c6c6c6; */
 }
 
 ul {
@@ -39,4 +39,8 @@ h1 {
   font-size: 40px;
   font-weight: 400;
   margin: 30px 25px;
+}
+
+.caption {
+  margin: 0 25px;
 }
