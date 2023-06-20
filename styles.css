@@ -54,4 +54,36 @@ h1 {
 
 .caption {
   margin: 0 25px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.img-banner {
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.item {
+  position: relative;
+}
+
+button {
+  border: none;
+  color: whitesmoke;
+  background-color: #cd6858;
+  padding: 10px 15px;
+  font-weight: 700;
+  cursor: pointer;
+  /* margin: auto; */
+  align-self: center;
+}
+
+.item-img {
+  display: block;
 }
