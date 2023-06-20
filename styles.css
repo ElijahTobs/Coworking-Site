@@ -14,7 +14,13 @@ ul {
   list-style: none;
   display: flex;
   margin: 0;
+  align-items: center;
   padding: 25px;
+  gap: 10px;
+}
+
+li {
+  cursor: pointer;
 }
 
 .logo {
@@ -24,6 +30,11 @@ ul {
 
 .icon {
   width: 25px;
+}
+
+.align-right {
+  margin-left: auto;
+
 }
 
 header .container {
