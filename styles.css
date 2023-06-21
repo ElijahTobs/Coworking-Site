@@ -1,13 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  max-width: 400px;
+  margin: auto;
   font-family: "Montserrat", sans-serif;
 }
 
 .container {
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
-  /* border: 2px solid #c6c6c6; */
 }
 
 ul {
@@ -86,4 +87,22 @@ button {
 
 .item-img {
   display: block;
+}
+
+.chatbox-bg {
+  background-color: #dda15e;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #999;
+  display: flex;
+  position: fixed;
+  bottom: 6px;
+  right: 6px;
+}
+
+.chatbox-img {
+ width: 50%; 
+ margin: auto;
 }
